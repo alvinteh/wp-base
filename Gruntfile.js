@@ -9,9 +9,9 @@ module.exports = function(grunt) {
         bower: {
             all: {
                 options: {
-                    cleanup: true,
+                    cleanup: false,
                     layout: "byComponent",
-                    targetDir: "content/themes/" + THEME_NAME + "/dependencies"
+                    targetDir: "content/themes/" + THEME_NAME + "/inc"
                 }
             }
         },

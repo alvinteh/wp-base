@@ -38,15 +38,18 @@ Usage
 #### WordPress
 * The WordPress content directory has been set to `content`, so add your themes and plugins to `content/themes` and `content/plugins` respectively.
 
+#### Bower
+* It is assumed that Bower components which are installed are specific to your theme. To that effect, they are installed in `content/themes{THEME_NAME}/inc` and the `content/themes/*/inc` folders are excluded from Git.
+* See the [Bower](http://sindresorhus.com/bower-components/) site for more details on usage.
+
 #### Composer
-* Strive to have all WordPress plugins installed using Composer via WPackagist.
-* When requiring non-WPackagist packages, it is assumed that you are adding code that is specific to your theme. To that effect, the `content/themes/*/inc` folders are excluded from Git.
+* It is assumed that non-WPackagist packages which are installed are specific to your theme. To that effect, they are installed in `content/themes{THEME_NAME}/inc` and `content/themes/*/inc` folders are excluded from Git.
 * See the [WPackagist](http://wpackagist.org) site for more details on usage.
 
 #### Grunt
 * Use the Grunt tasks `default` and `watch` to run tasks (e.g. RequireJS optimization, SASS/Compass compilation) for production and development respectively.
 * See the [Grunt](http://www.gruntjs.com) site for more details on usage.
-* When running the bundled SASS/Compass compilation task, it is assumed that all of your theme SCSS will be found in `content/themes/{THEME_NAME}/scss`. The compiled CSS will be output in `content/themes/{THEME_NAME}/css/*.min.css`.
+* It is assumed that all of your theme SCSS will be found in `content/themes/{THEME_NAME}/scss`. When running the bundled SASS/Compass compilation task, the compiled CSS will be output in `content/themes/{THEME_NAME}/css/*.min.css`.
 
 Dependencies
 -------
