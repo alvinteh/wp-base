@@ -7,7 +7,7 @@
 		}
 	],
 	"config": {
-		"vendor-dir": "content/plugins"
+		"vendor-dir": "content/themes/theme-here/inc"
 	},
     "extra": {
         "installer-paths": {
