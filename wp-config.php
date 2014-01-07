@@ -5,7 +5,7 @@ require_once('app.php');
  WordPress Configuration
 ******************************************/
 
-define('WP_CONTENT_DIR', './content');
+define('WP_CONTENT_DIR', dirname( __FILE__ ) . '/content');
 define('WP_CONTENT_URL', 'http://' . APP_ROOT_URL . '/content');
 define('WP_DEBUG', APP_DEV_DEBUG_MODE);
 
