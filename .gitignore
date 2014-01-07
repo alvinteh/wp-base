@@ -35,6 +35,8 @@ bower_components
 node_modules
 /local.php
 /content/themes/*/
+/content/themes/*/js/inc
+/content/themes/*/scss/inc
 /content/themes/*/inc
 /content/plugins/autoload.php
 /content/plugins/*/
