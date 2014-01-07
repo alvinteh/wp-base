@@ -32,6 +32,9 @@ Usage
 
 ### Taking advantage of the bootstrapped tools
 
+#### WordPress
+* The WordPress content directory has been set to `content`, so add your themes and plugins to `content/themes` and `content/plugins` respectively.
+
 #### Composer
 * Strive to have all WordPress plugins installed using Composer with WPackagist.
 * See the [WPackagist](http://wpackagist.org) site for more details on usage.
