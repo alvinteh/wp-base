@@ -30,6 +30,7 @@ Thumbs.db
 #
 
 *.psd
+.sass-cache
 bower_components
 node_modules
 /local.php
