@@ -22,9 +22,8 @@ Thumbs.db
 # Built files
 #
 
-css/app.min.css
-js/app.min.js
-test/dependencies
+/content/themes/*/css/*.min.css
+/content/themes/*/js/*.min.js
 
 #
 # Other files
@@ -34,3 +33,13 @@ test/dependencies
 bower_components
 node_modules
 /local.php
+/content/themes/*/
+/content/plugins/*/
+.htaccess
+
+#
+# Re-include used themes and non-wpackagist plugins
+#
+
+!/content/themes/theme-here/
+!/content/plugins/non-wpackagist-plugin-here/
