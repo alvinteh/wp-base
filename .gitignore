@@ -1,0 +1,36 @@
+#
+# System files
+#
+*~
+*.diff
+*.patch
+._*
+.buildpath
+.bower.json
+.DS_Store
+.DS_Store?
+.project
+.settings
+.sizecache.json
+.Spotlight-V100
+thumbs.db
+Thumbs.db
+.Trashes
+
+
+#
+# Built files
+#
+
+css/app.min.css
+js/app.min.js
+test/dependencies
+
+#
+# Other files
+#
+
+*.psd
+bower_components
+node_modules
+/local.php

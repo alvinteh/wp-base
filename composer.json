@@ -1,0 +1,14 @@
+{
+	"name": "",
+	"description": "",
+	"repositories": [{
+			"type": "composer",
+			"url": "http://wpackagist.org"
+		}
+	],
+	"config": {
+		"vendor-dir": "content/plugins"
+	},
+	"require": {
+	}
+}

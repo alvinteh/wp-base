@@ -1,0 +1,17 @@
+{
+    "name": "",
+    "version": "",
+    "ignore": [
+        "**/.*",
+        "test",
+        "wordpress",
+        "*.md",
+        "Gruntfile.js",
+        "package.json",
+        "bower.json"
+    ],
+    "dependencies": {
+    },
+    "devDependencies": {
+    }
+}
