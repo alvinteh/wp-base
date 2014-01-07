@@ -9,6 +9,11 @@
 	"config": {
 		"vendor-dir": "content/plugins"
 	},
+    "extra": {
+        "installer-paths": {
+            "content/plugins/{$name}": ["type:wordpress-plugin"]
+        }
+    },
 	"require": {
 	}
 }
