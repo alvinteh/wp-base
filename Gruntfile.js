@@ -43,7 +43,7 @@ module.exports = function(grunt) {
             all: {
                 ignores: "*.min.js",
                 jshintrc: ".jshintrc",
-                src: "content/themes/" + THEME_NAME + "/*.js"
+                src: "content/themes/" + THEME_NAME + "/js/*.js"
             }
         },
         requirejs: {
