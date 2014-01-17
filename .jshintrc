@@ -13,6 +13,8 @@
     "browser": true,
     "predef" : [
         "define",
-        "jQuery"
-    ] 
+        "FB",
+        "jQuery",
+        "window"
+    ]
 }
