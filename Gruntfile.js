@@ -1,8 +1,8 @@
 module.exports = function(grunt) {
-     "use strict";
+    "use strict";
 
-     //Configuration
-     var THEME_NAME = "";
+    //Configuration
+    var THEME_NAME = "";
 
     grunt.initConfig({
         pkg: grunt.file.readJSON("package.json"),
