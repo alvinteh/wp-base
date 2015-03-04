@@ -1,19 +1,39 @@
 {
-	"name": "",
-	"description": "",
-	"repositories": [{
-			"type": "composer",
-			"url": "http://wpackagist.org"
-		}
+    "name": "",
+    "description": "",
+    "repositories": [
+        {
+		    "type": "composer",
+		    "url": "http://wpackagist.org"
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "wordpress",
+                "type": "webroot",
+                "version": "4.1.1",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/WordPress/WordPress/archive/4.1.1.zip"
+                },
+                "require" : {
+                    "fancyguy/webroot-installer": "1.0.0"
+                }
+            }
+        }
 	],
-	"config": {
-		"vendor-dir": "content/themes/theme-here/inc"
-	},
+    "config": {
+        "vendor-dir": "content/themes/theme-here/inc"
+    },
     "extra": {
         "installer-paths": {
             "content/plugins/{$name}": ["type:wordpress-plugin"]
-        }
+        },
+        "webroot-dir": "wordpress",
+        "webroot-package": "wordpress"
     },
-	"require": {
-	}
+    "require": {
+        "wordpress": "4.1.*",
+        "fancyguy/webroot-installer": "1.0.0"
+    }
 }

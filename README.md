@@ -14,7 +14,7 @@ Usage
 
 3. Pull this repository by running `git pull wpbase`.
 
-4. Initialize and update the WordPress Git submodule by running `git submodule init` and `git submodule update`.
+4. Initialize and install WordPress by running `composer install`.
 
 5. Open `wp-config.php` and update it with the desired WordPress authentication configuration.
 
@@ -54,10 +54,9 @@ Usage
 Dependencies
 -------
 
-* WordPress 3.5+
-* Composer (optional; used for installing WordPress and third-party plugins with WPackagist)
+* Composer (used for installing WordPress and third-party plugins with WPackagist)
 * Grunt (optional; used for running build processes)
 
 License
 -------
-Copyright 2014 Alvin Teh. Licensed under the MIT license.
+Copyright 2015 Alvin Teh. Licensed under the MIT license.
